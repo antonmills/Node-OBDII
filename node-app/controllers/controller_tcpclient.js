@@ -90,3 +90,13 @@ parse = function(d)
 var tmp = parse("41 04 4D"); // load
 console.log(tmp[0]);
 console.log(tmp[1]);
+
+var tmp = parse("41 05 48"); // temp
+console.log(tmp[0]);
+console.log(tmp[1]);
+
+var tmp = parse("41 00 9E 3E B8 11"); // check if pids 1-20 are available
+console.log(tmp[0]);
+
+var tmp = parse("41 20 80 00 00 00"); // check if pids 21-40 are available
+console.log(tmp[0]);
